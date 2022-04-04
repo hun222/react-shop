@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.background {
+  /*
+    src 밑 파일은 변경 + 압축됨
+    public 하위 파일은 보존됨
+    => public 파일 경로: 절대경로/파일명/jpg
+  */
+  background-image: url('./background.jpg');
+  background-size: cover;
+  color: white;
+  padding: 70px;
+  height: 300px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
